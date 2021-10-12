@@ -1,0 +1,60 @@
+/* Colores 
+#619FAF
+#8BE4FB
+#6EB5C7
+*/
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.dropdown-menu li{ position: relative; 	}
+	.nav-item .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.nav-item .submenu-left{ 
+		right:100%; left:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: #464646 }
+	.dropdown-menu > li:hover > .submenu{ display: block; }
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu{
+      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+  }
+}	
+/* ============ small devices .end// ============ */
+
+body {
+	background: rgb(97,159,175);
+	background: linear-gradient(90deg, rgba(97,159,175,1) 0%, rgba(139,228,251,1) 44%, rgba(110,181,199,1) 100%);
+}
+
+#muestra {
+	/* background: rgb(97,159,175);
+	background: linear-gradient(90deg, rgba(97,159,175,1) 0%, rgba(139,228,251,1) 44%, rgba(110,181,199,1) 100%); */
+	width: auto;
+	height: 30em;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#frase {
+	background-color: white;
+	width: 100%;
+	height: 10em;
+}
+
+#footer {
+	/* background: rgb(97,159,175);
+	background: linear-gradient(90deg, rgba(97,159,175,1) 0%, rgba(139,228,251,1) 44%, rgba(110,181,199,1) 100%); */
+	height: 10em;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
