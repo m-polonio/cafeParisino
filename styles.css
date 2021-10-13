@@ -28,6 +28,19 @@
 }	
 /* ============ small devices .end// ============ */
 
+body {
+	background: rgb(97,159,175);
+	background: linear-gradient(90deg, rgba(97,159,175,1) 0%, rgba(139,228,251,1) 44%, rgba(110,181,199,1) 100%); 
+}
+
+button a {
+	text-decoration: none;
+}
+
+button a:hover {
+	color: white;
+}
+
 #degradado {
 	background: rgb(97,159,175);
 	background: linear-gradient(90deg, rgba(97,159,175,1) 0%, rgba(139,228,251,1) 44%, rgba(110,181,199,1) 100%); 
