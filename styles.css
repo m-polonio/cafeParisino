@@ -35,6 +35,7 @@ body {
 
 button a {
 	text-decoration: none;
+	color: grey;
 }
 
 button a:hover {
